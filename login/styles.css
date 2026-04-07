@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 167, 34, 0.795);
+    color: #333;
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    padding: 20px;
+}
+
+.halaman_login {
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    max-width: 950px;
+    width: 100%;
+    gap: 20px;
+}
+
+.login_left {
+    background-color: rgba(255, 167, 34, 0.849);;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 450px;
+    flex: 1;
+}
+
+.login_left img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.login_right {
+    /* margin: 2rem; */
+    padding-top: 40px;
+    max-width: 450px;
+    flex: 1;
+} 
+
+.login_right h1 {
+    color: #f3950d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#formulir_login {
+    padding: 0 40px;
+}
+
+#formulir_login label,input,a {
+    display: block;
+    margin: 10px 0;
+}
+
+#formulir_login label {
+    font-weight: bold;
+    font-size: small;
+}
+
+#formulir_login input {
+    background-color: #FFFFF0;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 9px;
+    width: 100%;
+}
+
+#formulir_login a {
+    color: rgb(82, 81, 81);
+    font-size: 14px;
+    text-align: end;
+}
+
+#formulir_login button {
+    background-color:  #fa9406;
+    color:rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    margin: 30px 0 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+#formulir_login button:active {
+    background-color: #e08300;
+}
+
+.info_media_sosial span {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.info_media_sosial span::before, span::after {
+    border-bottom: 1px solid rgb(218, 218, 218);
+    content: "";
+    flex: 1;
+}
+
+.info_media_sosial span::before {
+    margin-right: 10px;
+}
+
+.info_media_sosial span::after {
+    margin-left: 10px;
+}
+
+.media_sosial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.media_sosial img {
+    display: block;
+    width: 37px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 12px;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.logo_sekolah {
+    background-color: #FFFFF0;
+    box-shadow: 0px 4px 5px rgb(218, 213, 213);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 25px;
+    gap: 20px;
+}
+
+.logo h2{
+    font-size: 14px;
+}
+
+.logo img {
+    width: 20px;
+}
